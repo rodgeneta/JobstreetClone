@@ -1,0 +1,10 @@
+/* Colors */
+:root {
+    --color-bg-primary:     #f3f5f7;
+    --color-bg-secondary:   #051a49;
+    --color-bg-tertiary:    #e60278;
+    --color-text-primary:   #2e3849;
+    --color-text-secondary: #5a6881;
+    --color-white:          #ffffff;
+    --color-black:          #000000;
+}

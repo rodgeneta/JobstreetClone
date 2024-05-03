@@ -10,27 +10,27 @@ const Navbar = () => {
                     <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
 
                     <a className="flex flex-shrink-0 items-center mr-4" href="/">
-                        <img className="h-10 w-auto" src={logo} alt="React Jobs"/>
-                        <span className="text-[#5a6881] text-base font-light ml-10">
+                        <img className="h-auto w-auto" src={logo} alt="React Jobs"/>
+                        <span className="text-[#5a6881] text-sm font-light ml-10 hover:font-bold">
                             Jobs search
                         </span>
-                        <span className="text-[#5a6881] text-base font-light ml-10">
+                        <span className="text-[#5a6881] text-sm font-light ml-10">
                             Profile
                         </span>
-                        <span className="text-[#5a6881] text-base font-light ml-10">
+                        <span className="text-[#5a6881] text-sm font-light ml-10">
                             Career advice
                         </span>
-                        <span className="text-[#5a6881] text-base font-light ml-10">
+                        <span className="text-[#5a6881] text-sm font-light ml-10">
                             Company profiles
                         </span>
                     </a>
 
                         <div className="md:ml-auto">
                             <div className="flex space-x-2">
-                                <button className='border-2 border-violet-500 px-3 py-1 rounded-lg text-[#1e47a9] hover:bg-sky-200 font-medium'>
+                                <button className='border-2 border-violet-500 px-3 py-1 rounded-lg text-[#1e47a9] hover:bg-sky-200 font-semibold'>
                                     Sign in
                                 </button>
-                                <a to="/jobs" className='text-[#1e47a9] font-bold font-semibold hover:text-black rounded-md px-3 py-2'>
+                                <a to="/jobs" className='text-[#1e47a9] font-bold font-semibold rounded-md px-3 py-2'>
                                     Employer Site
                                 </a>
                             </div>

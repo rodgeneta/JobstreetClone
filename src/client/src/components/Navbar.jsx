@@ -11,16 +11,16 @@ const Navbar = () => {
 
                     <a className="flex flex-shrink-0 items-center mr-4" href="/">
                         <img className="h-auto w-auto" src={logo} alt="React Jobs"/>
-                        <span className="text-[#5a6881] text-sm font-light ml-10 hover:font-bold">
+                        <span className="text-[#5a6881] text-base font-normal ml-10 underline underline-offset-8 decoration-2">
                             Jobs search
                         </span>
-                        <span className="text-[#5a6881] text-sm font-light ml-10">
+                        <span className="text-[#5a6881] text-base font-normal ml-10">
                             Profile
                         </span>
-                        <span className="text-[#5a6881] text-sm font-light ml-10">
+                        <span className="text-[#5a6881] text-base font-normal ml-10">
                             Career advice
                         </span>
-                        <span className="text-[#5a6881] text-sm font-light ml-10">
+                        <span className="text-[#5a6881] text-base font-normal  ml-10">
                             Company profiles
                         </span>
                     </a>
